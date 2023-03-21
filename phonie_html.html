@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonie</title>
+    <link rel="stylesheet" href="./phonie_css.css"/>
+</head>
+<body>
+    <div class="form-control">
+        <form action="">
+            <div class="form-control-input">
+                <h1>Welcome to Phonie!</h1>
+                <h3>Know the carrier of your phone number</h3>
+                <input type="text" id="phone" placeholder="enter your phone number" oninput="myFunction()"/>
+                <span><img src="./9mobile logo.jpg" id="9mobile" class="carrier" alt="9mobile-logo"/><img src="./airtel logo.png" id="airtel" class="carrier" alt="airtel-logo"/> <img src="./mtn logo.png" id="mtn" class="carrier" alt="mtn-logo"/><img src="./glo logo.jpg" id="glo" class="carrier" alt="glo-logo"/></span>
+                 <br>
+                 <small id="small">Not an Mtn, Airtel, Glo or 9mobile number</small>
+                 <small id="mtn-small">Not an Mtn, Airtel, Glo or 9mobile number</small>
+                 <small id="airtel-small">Not an Mtn, Airtel, Glo or 9mobile number</small>
+                 <small id="glo-small">Not an Mtn, Airtel, Glo or 9mobile number</small>
+                 <small id="nine-mobile-small">Not an Mtn, Airtel, Glo or 9mobile number</small>
+                 <br>
+                <!--<label>Restrict to:</label>
+                <label for="none">None</label>
+                <input type="radio" id="noneRadio" name="number" onclick="noneFunction()" checked/>
+                <label for="mtn">Mtn</label>
+                <input type="radio" id="mtnRadio"name="number" onclick="mtnFunction()"/>
+                <label for="airtel">Airtel</label>
+                <input type="radio" id="airteladio"name="number" onclick="airtelFunction()"/>
+                <label for="glo">Glo</label>
+                <input type="radio" id="gloRadio"name="number" onclick="gloFunction()"/>
+                <label for="nineMobile">9mobile</label>
+                <input type="radio" id="nineRadio"name="number" onclick="nineMobileFunction()"/> -->
+            </div>
+            
+            
+        </form>
+    </div>
+    <script src="./phonie_script.js"></script> 
+</body>
+</html>
